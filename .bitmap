@@ -9,12 +9,55 @@
  */
 
 {
+    "payments/card-form": {
+        "name": "payments/card-form",
+        "scope": "acme-modular.payments",
+        "version": "17b3b57c3936944f417e7595823adac7876111c6",
+        "mainFile": "index.ts",
+        "rootDir": "payments/payments/card-form",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
+    "payments/card-validation": {
+        "name": "payments/card-validation",
+        "scope": "acme-modular.payments",
+        "version": "7a3d36300a05a06fa78caf332482c16e9aa1a236",
+        "mainFile": "index.ts",
+        "rootDir": "payments/payments/card-validation",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
     "payments/fee-calculator": {
         "name": "payments/fee-calculator",
         "scope": "acme-modular.payments",
-        "version": "0.0.2",
+        "version": "27bbe7d61c3f875a85e35eac69cc3d835a5ba1ae",
         "mainFile": "index.ts",
         "rootDir": "payments/payments/fee-calculator"
     },
-    "$schema-version": "17.0.0"
+    "payments/payment-method-picker": {
+        "name": "payments/payment-method-picker",
+        "scope": "acme-modular.payments",
+        "version": "38da7c8cf42c962e133fe3ccd32fa65c1fe390c9",
+        "mainFile": "index.ts",
+        "rootDir": "payments/payments/payment-method-picker",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
+    "payments/use-payment": {
+        "name": "payments/use-payment",
+        "scope": "acme-modular.payments",
+        "version": "fbd905bb0b0f3ff3ae689582e496c830c1038fd8",
+        "mainFile": "index.ts",
+        "rootDir": "payments/payments/use-payment",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "org-scale-content",
+            "scope": "acme-modular.platform"
+        },
+        "exported": true
+    }
 }
